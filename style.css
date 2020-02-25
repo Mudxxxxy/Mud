@@ -43,18 +43,18 @@ body {
     color: rgb(255,149,0);
 }
 .popular {
-	display:inline-flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	border: 2px solid black;
-	transition: all 0.1s linear;
-	opacity: 0.75;
-	
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid black;
+    transition: all 0.1s linear;
+    opacity: 0.75;
+    
 }
 .popular:hover {
-	border: 2px solid rgb(255,149,0);
-	opacity: 1;
+    border: 2px solid rgb(255,149,0);
+    opacity: 1;
 }
 
 /* ТЕКСТ ПОД КАРТИНКОЙ И ПО ЦЕНТРУ */
@@ -72,14 +72,27 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #151515
     }
 .footerContent{
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(54, 52, 52);
-
 }
 .cool{
     display:inline-flex;
     justify-content:space-between;
+}
+ul {
+    list-style-type: none;
+}
+.alfa {
+    font-size: 1.33em;
+    font-weight: 700;
+    color:grey;
+    margin: 0;
+}
+a {
+   color: #f90;
+   outline-style: none;
+   text-decoration: none; 
 }
